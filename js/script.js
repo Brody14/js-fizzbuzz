@@ -3,7 +3,7 @@
 // CREARE UN CICLO CHE STAMPI DA 1 A 100
 
 for (let i = 0; i < 100; i++) {
-    console.log(i + 1);
+    
 
     const three = (i + 1) % 3;
     // console.log(i, three);
@@ -19,6 +19,8 @@ for (let i = 0; i < 100; i++) {
         // PER I MULTIPLI DI 5 DEVE STAMPARE BUZZ
     } else if (five === 0) {
         console.log('Buzz');
+    } else {
+        console.log(i + 1);
     }
 }
 
