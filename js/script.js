@@ -1,2 +1,15 @@
 console.log('Rudy Fernandez');
 
+// CREARE UN CICLO CHE STAMPI DA 1 A 100
+
+for (let i = 0; i < 100; i++) {
+    console.log(i + 1);
+}
+
+// PER I MULTIPLI DI 3 DEVE STAMPARE FUZZ
+
+// PER I MULTIPLI DI 5 DEVE STAMPARE BUZZ
+
+// PER I MULTIPLI DI ENTRAMBI DEVE STAMPARE FUZZBUZZ
+
+
